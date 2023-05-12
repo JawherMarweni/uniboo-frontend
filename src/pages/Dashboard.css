@@ -1,0 +1,83 @@
+/* Dark theme */
+body {
+  background-color: #222;
+  color: #eee;
+}
+.space {
+  margin-top: 5rem;
+}
+
+/* Container */
+.container {
+  margin-top: 30px;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  background-color: #333;
+  border: none;
+}
+
+.dropdown-item {
+  color: #eee;
+}
+
+/* Price chart */
+.chart-container {
+  height: 300px;
+}
+
+/* Position information */
+.position-info {
+  margin-top: 30px;
+}
+
+.position-info .title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.position-info .row {
+  margin-bottom: 10px;
+}
+
+.position-info .col {
+  font-size: 18px;
+}
+
+/* History table */
+.history-table {
+  margin-top: 30px;
+}
+
+.history-table thead th {
+  background-color: #444;
+  color: #eee;
+  border: none;
+}
+
+.history-table tbody td {
+  border: none;
+}
+
+/* Button */
+.btn {
+  background-color: #1e88e5;
+  border: none;
+  color: #eee;
+}
+
+.btn:hover {
+  background-color: #0d47a1;
+}
