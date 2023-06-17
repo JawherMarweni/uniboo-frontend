@@ -1,72 +1,3 @@
-// import React, { useState } from "react";
-// import axios from "axios";
-// import "./HomePage.css";
-// import NavBar from "./navBar";
-
-// function HomePage() {
-//   const [message, setMessage] = useState("");
-//   const [isMonitoring, setIsMonitoring] = useState(false);
-
-//   const monitoringState = async function () {
-//     try {
-//       axios
-//         .get("http://localhost:5000/monitoringState")
-//         .then((response) => {
-//           setIsMonitoring(response.data.isMonitoring);
-//         })
-//         .catch((error) => {
-//           console.error(error);
-//         });
-//     } catch (error) {
-//       console.error(error);
-//     }
-//   };
-//   const startMonitor = async function () {
-//     try {
-//       axios.get("http://localhost:5000/startMonitoring").then((rep) => {
-//         if (rep.data.statue == "sucess") {
-//           setIsMonitoring(true);
-//         }
-//       });
-//     } catch {}
-//   };
-//   const stopMonitor = async function () {
-//     try {
-//       axios.get("http://localhost:5000/stoptMonitoring").then((rep) => {
-//         if (rep.data.statue == "sucess") {
-//           setIsMonitoring(false);
-//         }
-//       });
-//     } catch {}
-//   };
-//   // const setTest = async function () {
-//   //   axios
-//   //     .post("http://localhost:5000/setBotParam", { message: "you" })
-//   //     .then((response) => {
-//   //       console.log(response.data);
-//   //     })
-//   //     .catch((error) => {
-//   //       console.error(error);
-//   //     });
-//   // };
-//   monitoringState();
-//   return (
-//     <div className="HomePage">
-//       <NavBar></NavBar>
-//       {isMonitoring && (
-//         <button onClick={stopMonitor} class="btn btn-danger">
-//           Stop
-//         </button>
-//       )}
-//       {!isMonitoring && (
-//         <button onClick={startMonitor} class="btn btn-success">
-//           Start
-//         </button>
-//       )}
-//     </div>
-//   );
-// }
-
 // export default HomePage;
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
@@ -88,9 +19,9 @@ function HomePage() {
               className="bg-secondary px-4 py-3"
             >
               Get Started
-            </Button>{" "}
-            {/* Use an outline button with a light border and text */}
+            </Button>
           </Col>
+          <span>&nbsp; </span>
         </Row>
       </Container>
 

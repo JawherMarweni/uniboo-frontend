@@ -13,10 +13,11 @@
     "antd": "^5.4.6",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "chart.js": "^4.3.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-chartjs-2": "^5.2.0",
-    "react-code-snippet": "^0.6.13",
+    "react-code-snippet": "^0.6.8",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.8.0",
@@ -24,6 +25,7 @@
     "react-scripts": "^5.0.1",
     "react-syntax-highlighter": "^15.5.0",
     "reactstrap": "^9.1.9",
+    "recharts": "^2.7.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -13,7 +13,9 @@ import ContactPage from "./pages/ContactPage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import Dashboard from "./pages/Dashboard";
+//import DashboardPage from "./pages/Dashboard";
 import Signup from "./pages/SignupPage";
+import SettingsPage from "./pages/SettingPage";
 import "./App.css";
 
 function App() {
@@ -56,6 +58,7 @@ function App() {
               <BrowserRouter>
                 <NavBar />
                 <Routes>
+                  <Route path="/" element={<HomePage />} />
                   <Route path="/home" element={<HomePage />} />
                   <Route path="/features" element={<FeaturesPage />} />
                   <Route path="/docs" element={<DocsPage />} />
@@ -63,6 +66,7 @@ function App() {
                   <Route path="/login" element={<LoginPage />} />
                   <Route path="/signup" element={<SignupPage />} />
                   <Route path="/dashbord" element={<Dashboard />} />
+                  <Route path="/setting" element={<SettingsPage />} />
                 </Routes>
                 <Footer />
               </BrowserRouter>
